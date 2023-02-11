@@ -1,3 +1,5 @@
+package main.java;
+
 public class BalancedParentheses {
     public static boolean isBalanced(String s){
         int opening = 0;
