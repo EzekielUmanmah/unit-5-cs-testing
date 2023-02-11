@@ -11,7 +11,8 @@ public class Main {
         boolean isBalanced = BalancedParentheses.isBalanced("(Today) we r)ide!");
         System.out.println("The string has balanced parentheses: " + isBalanced);
 
-        boolean balancedBrackets = BalancedBrackets.isBalanced("Do{ <(you)>}");
+        BalancedBrackets bb = new BalancedBrackets();
+        boolean balancedBrackets = bb.isBalanced("Do{ <(you)>}");
         System.out.println("The string has balanced brackets: " + balancedBrackets);
 
         int[] insertionSort = InsertionSort.insertionSort(new int[]{3, 2, -59, 67});
