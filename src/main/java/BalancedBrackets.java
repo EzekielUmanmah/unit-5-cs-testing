@@ -5,7 +5,7 @@ import java.util.Stack;
 
 //  this solution does not account for overlapping brackets e.g. ({ )}
 public class BalancedBrackets {
-    public static boolean isBalanced(String s) {
+    public boolean isBalanced(String s) {
         Stack<Character> tracker = new Stack<>();
         HashMap<Character, Character> brackets = new HashMap<Character, Character>();
 //        because of the LIFO nature of stacks, the example places the closing brackets as the key. This is essential
